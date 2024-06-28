@@ -218,11 +218,10 @@ export default function CustomersSay() {
                 </div>
             </div>
             <div className="mt-10" data-aos="fade-up"
-                data-aos-duration="3000">
-                <h1 className="text-3xl font-bold">Source code!</h1>
-
-                <a href="">
-                    <button className="btn-press-anim hover:bg-shingle-fawn-900 w-16 rounded-xl"><GrResources size={50} /></button>
+                data-aos-duration="3000">     <a href="https://github.com/reyjrcode/first-practice-react-tailwind.git">
+                    <h1 className="text-3xl font-bold">Source code!</h1>
+                    <button className="btn-press-anim hover:bg-shingle-fawn-900 w-16 rounded-xl"><GrResources size={50} />
+                    </button>
                 </a>
             </div>
         </div>
